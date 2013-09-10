@@ -4,7 +4,7 @@
 
 texto colorido
 
-  git config --global color.ui true
+    git config --global color.ui true
   
 setar variáveis para histórico
 
