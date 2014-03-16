@@ -9,7 +9,7 @@ texto colorido
 setar variáveis para histórico
 
     git config --global user.name 'Everton R. Auler'
-    git config --global user.email 'evertonrobertoauler@gmail.com'
+    git config --global user.email 'example@gmail.com'
     
 criar um comando (git lol)
 
