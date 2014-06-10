@@ -30,4 +30,4 @@ List images
       
 Run image
 
-      sudo docker run -t -i teste/postgres /bin/bash
+      sudo docker run -t -i test/postgres /bin/bash
