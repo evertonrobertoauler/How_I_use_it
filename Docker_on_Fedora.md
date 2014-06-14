@@ -34,7 +34,12 @@ Run image
 
       sudo docker run -t -i test/postgres /bin/bash
 
-Stop containers
+Stop container
 
-      docker stop $(docker ps -a -q)
-      docker rm $(docker ps -a -q)
+      sudo docker stop containerId
+      sudo docker stop 1493d35c9315
+      
+Remove container
+
+      sudo docker rm containerId
+      sudo docker rm 1493d35c9315
