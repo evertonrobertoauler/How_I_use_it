@@ -14,6 +14,11 @@ List containers running
 
       sudo docker ps
       
+List all containers once started
+
+      sudo docker ps -a
+      sudo docker ps -a -q
+      
 List images available
 
       sudo docker images
@@ -43,3 +48,7 @@ Remove container
 
       sudo docker rm containerId
       sudo docker rm 1493d35c9315
+      
+Remove all containers
+
+      sudo docker rm $(sudo docker ps -a -q)
