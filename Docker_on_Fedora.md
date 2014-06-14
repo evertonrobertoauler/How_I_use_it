@@ -33,3 +33,8 @@ Delete saved image
 Run image
 
       sudo docker run -t -i test/postgres /bin/bash
+
+Stop containers
+
+      docker stop $(docker ps -a -q)
+      docker rm $(docker ps -a -q)
