@@ -28,7 +28,11 @@ insert a document
 
 update field on documents
 
-    db.collectionname.update({name: 'test name'}, {$set: {fieldname: 'new value'}}, {upsert: true, multi: true})
+    db.collectionname.update(
+      {name: 'test name'}, 
+      {$set: {fieldname: 'new value'}}, 
+      {upsert: true, multi: true}
+    )
 
 delete document
 
