@@ -36,4 +36,4 @@ update field on documents
 
 delete document
 
-    db.collectionname.delete({fieldname: 'test name'})
+    db.collectionname.remove({fieldname: 'test name'})
