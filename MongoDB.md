@@ -8,7 +8,7 @@ show all databases
 
 use database
 
-    user dbname
+    use dbname
     
 drop selected database
 
