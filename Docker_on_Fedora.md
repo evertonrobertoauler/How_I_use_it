@@ -52,3 +52,11 @@ Remove container
 Remove all containers
 
       sudo docker rm $(sudo docker ps -a -q)
+
+Save a image to image.tar
+
+      sudo docker save imageName > imageName.tar
+      
+Load a image from image.tar
+
+      sudo docker load imageName < imageName.tar
