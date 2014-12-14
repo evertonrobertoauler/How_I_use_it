@@ -59,4 +59,4 @@ Save a image to image.tar
       
 Load a image from image.tar
 
-      sudo docker load imageName < imageName.tar
+      sudo docker load < imageName.tar
